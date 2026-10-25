@@ -1,0 +1,8 @@
+version: 2
+updates:
+  # Repositório sem manifests de pacotes (apenas documentação),
+  # então só as actions usadas nos workflows podem ser atualizadas.
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
